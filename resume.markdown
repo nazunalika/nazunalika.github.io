@@ -4,3 +4,4 @@ title:  "Resume"
 permalink: /resume/
 ---
 
+:thinking:

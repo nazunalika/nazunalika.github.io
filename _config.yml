@@ -33,6 +33,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-spaceship
 
 jekyll-archives:
   enabled: all
