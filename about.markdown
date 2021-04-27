@@ -18,4 +18,4 @@ Below is a list of my current projects that I either lead or take part in.
 | Name | Links |
 | --- | --- |
 | Linux Guide and Hints | [Website](https://linuxguideandhints.com) |
-| Rocky Linux | [Website](https://rockylinux.org) [GitHub](https://github.com/rocky-linux) [GitLab](https://git.rockylinux.org) |
+| Rocky Linux | [Website](https://rockylinux.org) / [GitHub](https://github.com/rocky-linux) / [GitLab](https://git.rockylinux.org) |
