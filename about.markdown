@@ -6,7 +6,7 @@ permalink: /about/
 
 This little blog is mainly for tech kind of stuff or other tidbits that myself
 or others may find interesting. I wanted a central place for this and separate
-it all from my creative side of things.
+it all from my creative side.
 
 You may look at my resume located at this site as well if you have any interest
 at all.
