@@ -5,6 +5,7 @@ permalink: /resume/
 ---
 
 Louis M. Abel
+
 Phoenix, AZ
 
 ## Objective 
@@ -14,6 +15,12 @@ To acquire a position in your Information Technology Department as an Administra
 ## Technical Skills
 
 ## Notable Achievements
+
+* Successful enterprise implementation for system access controls utilizing FreeIPA / Red Hat IdM with and without Active Directory trusts
+* Successful implementation, maintenance, and enforcement of the CIS Benchmarks to ensure systems and applications are hardened beyond PCI compliance across both Linux, UNIX, Windows platforms as well as Middleware
+* Successful enterprise implementation of both configuration and asset management via SaltStack, streamlining overall management of 4000+ on-rep and cloud Linux assets
+* Successful migrations via PowerShell from vRealize 6 to 7.6 for clients that did not perform in-place upgrades
+* Built and co-lead an open source team to create and release an Enterprise Linux distribution called "Rocky Linux" based on Red Hat Enterprise Linux
 
 ## Professional Experience
 
@@ -26,5 +33,5 @@ To acquire a position in your Information Technology Department as an Administra
 
 ## Certifications
 
-* RHCE - Red Hat Certified Engineer - April 17, 2022 - 120-155-718
+* RHCE - Red Hat Certified Engineer - April 14, 2025 - 120-155-718
 * RHCSIM - Red Hat Certified Specialist in Identity Management - April 17, 2022 - 120-155-718
