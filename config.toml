@@ -1,0 +1,58 @@
+baseURL = 'https://nazunalika.github.io'
+languageCode = 'en-us'
+title = 'Notes'
+theme = 'beautifulhugo'
+description = "Some notes of various things over time that I've collected or find interesting over all. Most stuff is Linux (Fedora, Red Hat) and FreeIPA."
+categories = ['FreeIPA', 'Rocky Linux']
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[author]
+  name = "Louis Abel"
+  website = "https://linuxguideandhints.com"
+  email = "tucklesepk+blog@gmail.com"
+  github = "nazunalika"
+  twitter = "nazunalika"
+  linkedin = "louis-abel"
+
+[params]
+  subtitle = 'Some notes of various things, mostly Linux (Fedora, Red Hat) and FreeIPA)'
+  themeColor = 'blue'
+  showMenuItems = 2
+  fullWidthTheme = true
+  centerTheme = true
+  displayDescription = true
+  socialShare = true
+
+[[params.social]]
+  name = "email"
+  url = "tucklesepk+blog@gmail.com"
+
+[[params.social]]
+  name = "github"
+  url = "nazunalika"
+
+[params.volunteer]
+  Rocky = "https://rockylinux.org"
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+[markup.highlight]
+  lineNos = false
+  noClasses = false
+
+[[menu.main]]
+  name = "posts"
+  weight = 100
+  identifier = "posts"
+  url = "/posts/"
+
+[[menu.main]]
+  name = "resume"
+  weight = 200
+  identifier = "resume"
+  url = "/resume/"
