@@ -17,7 +17,7 @@ categories = ['FreeIPA', 'Rocky Linux']
   linkedin = "louis-abel"
 
 [params]
-  subtitle = 'Some notes of various things, mostly Linux (Fedora, Red Hat) and FreeIPA)'
+  subtitle = 'Some notes of various things, mostly Linux (Fedora, Red Hat) and FreeIPA'
   themeColor = 'blue'
   showMenuItems = 2
   fullWidthTheme = true
