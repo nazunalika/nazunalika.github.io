@@ -221,14 +221,14 @@ repair if I ever decide to open it up and look.
 
 ### Footnotes
 
-[^1] When I mean substantially lower, I mean about 70% lower.
+[^1]: When I mean substantially lower, I mean about 70% lower.
 
-[^2] I would love to be proven wrong about this. They don't seem to allow you to
+[^2]: I would love to be proven wrong about this. They don't seem to allow you to
 have a public-domain email address (e.g. gmail.com).
 
-[^3] I should note that I did do a complete factory reset and even updated the
+[^3]: I should note that I did do a complete factory reset and even updated the
 firmware of RouterBOOT.
 
-[^4] You really should do this. You need to allow the bridge to manage your
+[^4]: You really should do this. You need to allow the bridge to manage your
 VLAN's in some way. This goes hand-in-hand with VLAN filtering and hardware
 offloading.
