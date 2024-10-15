@@ -8,6 +8,14 @@ categories = ['FreeIPA', 'Rocky Linux']
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
+[author]
+  name = "Louis Abel"
+  website = "https://linuxguideandhints.com"
+  email = "tucklesepk+blog@gmail.com"
+  github = "nazunalika"
+  twitter = "nazunalika"
+  linkedin = "louis-abel"
+
 [params]
   subtitle = 'Some notes of various things, mostly Linux (Fedora, Red Hat) and FreeIPA'
   themeColor = 'blue'
