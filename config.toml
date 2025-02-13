@@ -1,9 +1,9 @@
 baseURL = 'https://nazunalika.github.io'
 languageCode = 'en-us'
-title = 'Notes'
+title = 'nazu.angelsofclockwork.net'
 theme = 'beautifulhugo'
 description = "Some notes of various things over time that I've collected or find interesting over all. Most stuff is Linux (Fedora, Red Hat) and FreeIPA."
-categories = ['FreeIPA', 'Rocky Linux']
+categories = ['FreeIPA', 'Enterprise Linux']
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
@@ -31,6 +31,7 @@ categories = ['FreeIPA', 'Rocky Linux']
     github = "nazunalika"
     twitter = "nazunalika"
     linkedin = "louis-abel"
+    bluesky = "@angelsofclockwork.net"
 
 [[params.social]]
   name = "email"
@@ -39,6 +40,10 @@ categories = ['FreeIPA', 'Rocky Linux']
 [[params.social]]
   name = "github"
   url = "nazunalika"
+
+[[params.social]]
+  name = "bluesky"
+  url = "@angelsofclockwork.net"
 
 [params.volunteer]
   Rocky = "https://rockylinux.org"
