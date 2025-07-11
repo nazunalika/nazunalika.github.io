@@ -31,7 +31,7 @@ categories = ['FreeIPA', 'Enterprise Linux']
     github = "nazunalika"
     twitter = "nazunalika"
     linkedin = "louis-abel"
-    bluesky = "@angelsofclockwork.net"
+    bluesky = "angelsofclockwork.net"
 
 [[params.social]]
   name = "email"
@@ -52,6 +52,10 @@ categories = ['FreeIPA', 'Enterprise Linux']
   category = 'categories'
   tag = 'tags'
   series = 'series'
+
+[goldmark]
+  [Extensions]
+    footnote = true
 
 [markup.highlight]
   lineNos = false
