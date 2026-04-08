@@ -1,6 +1,6 @@
 baseURL = 'https://nazunalika.github.io'
 languageCode = 'en-us'
-title = 'nazu.angelsofclockwork.net'
+title = 'Clockwork Notes'
 theme = 'beautifulhugo'
 description = "Some notes of various things over time that I've collected or find interesting over all. Most stuff is Linux (Fedora, Red Hat) and FreeIPA."
 categories = ['FreeIPA', 'Enterprise Linux']
