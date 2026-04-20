@@ -45,9 +45,6 @@ categories = ['FreeIPA', 'Enterprise Linux']
   name = "bluesky"
   url = "@angelsofclockwork.net"
 
-[params.volunteer]
-  Rocky = "https://rockylinux.org"
-
 [taxonomies]
   category = 'categories'
   tag = 'tags'
@@ -72,3 +69,9 @@ categories = ['FreeIPA', 'Enterprise Linux']
   weight = 200
   identifier = "resume"
   url = "/resume/"
+
+[[menu.main]]
+  name = "opinions"
+  weight = 200
+  identifier = "opinions"
+  url = "/opinions/"
