@@ -88,8 +88,6 @@ ipa01$ ipa dnsrecord-add example.net '@' --ns-rec="ns5.he.net."
 ipa01$ ipa dnszone-mod --allow-transfer="10.100.0.1" example.net
 ```
 
-On the bind
-
 On the bind server, you need two slots, an ACL and master list (yes, this is
 required even if the IP's are the same). My ACL and master list look like this:
 
