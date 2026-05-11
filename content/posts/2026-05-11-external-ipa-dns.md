@@ -147,11 +147,12 @@ access controls and settings *must* be done in the originating view.
 ### Isn't this just Split-horizon DNS?
 
 What I described above for `example.net` is not split-horizon DNS. This is
-because the answers that are given, regardless of view, will be the same.
+because most of the answers that are given, regardless of view, will be the
+same. Key word is *most*.
 
 Since I want `example.com` to be available externally, I had setup an entirely
 separate zone that is not managed by IPA in any capacity. This way
-`dns.example.com` or whatever my name server is resolvable via A and AAAA
+`dns.example.com` or whatever my name server is is resolvable via A and AAAA
 records, since the registrar was told the same information anyway.
 
 This domain is effectively split-horizon, since now external and internal queries
@@ -166,6 +167,10 @@ router$ dig @10.100.0.1 dns.example.com A +short
 router$ dig @1.1.1.1 dns.example.com A +short
 X.X.X.X
 ```
+
+It should be obvious: My IPA servers are not externally accessible, so they do
+not have A/AAAA nor NS records on the external view version of the zone. Any
+queries for those will not have an answer.
 
 ### Final thoughts
 
