@@ -149,19 +149,21 @@ access controls and settings *must* be done in the originating view.
 What I described above for `example.net` is not split-horizon DNS. This is
 because the answers that are given, regardless of view, will be the same.
 
-If I want `example.com` to be available externally, I would setup an entirely
-separate zone that is not managed by IPA in any capacity. That would be
-split-horizon at that point, as external queries will get a different answer for
-"router.example.com" than if say a system in my internal view (LAN) asked about
-it.
+Since I want `example.com` to be available externally, I had setup an entirely
+separate zone that is not managed by IPA in any capacity. This way
+`dns.example.com` or whatever my name server is resolvable via A and AAAA
+records, since the registrar was told the same information anyway.
+
+This domain is effectively split-horizon, since now external and internal queries
+will differ from one another.
 
 ```
 # The router's LAN address, as seen by the internal view
-router$ dig @10.100.0.1 router.example.com A +short
+router$ dig @10.100.0.1 dns.example.com A +short
 10.100.0.1
 
 # The router's external address, as seen by the internet
-router$ dig @1.1.1.1 router.example.com A +short
+router$ dig @1.1.1.1 dns.example.com A +short
 X.X.X.X
 ```
 
