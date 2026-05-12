@@ -31,7 +31,7 @@ categories = ['FreeIPA', 'Enterprise Linux']
     github = "nazunalika"
     twitter = "nazunalika"
     linkedin = "louis-abel"
-    bluesky = "angelsofclockwork.net"
+    bluesky = "clockwork.host"
 
 [[params.social]]
   name = "email"
@@ -43,7 +43,7 @@ categories = ['FreeIPA', 'Enterprise Linux']
 
 [[params.social]]
   name = "bluesky"
-  url = "@angelsofclockwork.net"
+  url = "@clockwork.host"
 
 [taxonomies]
   category = 'categories'

@@ -20,8 +20,8 @@ To acquire a position in your Information Technology Department as an Administra
 * Successful implementation, maintenance, and enforcement of the CIS Benchmarks to ensure systems and applications are hardened beyond PCI compliance across both Linux, UNIX, Windows platforms as well as Middleware
 * Successful enterprise implementation of both configuration and asset management via SaltStack, streamlining overall management of 4000+ on-prem and cloud Linux assets
 * Successful migrations via PowerShell from vRealize 6 to 7.6 for clients that did not perform in-place upgrades
-* Built and co-lead an open source team to create and release an Enterprise Linux distribution called "Rocky Linux" based on Red Hat Enterprise Linux
-* Built and currently maintain many ansible roles and playbooks to maintain the Rocky Linux infrastructure
+* Built and co-lead an open source team to create and release an Enterprise Linux distribution called "Rocky Linux" based on Red Hat Enterprise Linux and CentOS Stream
+* Built and maintained many ansible roles and playbooks to maintain the Rocky Linux infrastructure
 
 ## Professional Experience
 
