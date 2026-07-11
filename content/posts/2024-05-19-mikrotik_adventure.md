@@ -32,8 +32,8 @@ So I got the switch, great! I racked it up and immediately tried to start
 working with it. There was one thing that caught me off guard: The CLI is
 completely different from what I'm used to on ProCurve and Cisco. Literally
 *everything* starts with a `/`. Thankfully `<TAB>` works! I like when I can use
-that on a command line. Also thankfully, Neil (a good friend of mine on my team
-at the Rocky Linux project) gave me a good cheat sheet!
+that on a command line. Also thankfully, Neil (a good friend of mine) gave me a
+good cheat sheet!
 
 #### Management Interfaces
 
@@ -171,7 +171,7 @@ I'll set my DNS and NTP settings too, while I'm here.
 [admin@npsw00n1] > /ip/dns/set servers=10.100.0.1
 [admin@npsw00n1] > /system/clock/set time-zone-name=America/Phoenix
 [admin@npsw00n1] > /system/ntp/client/set enabled=yes
-[admin@npsw00n1] > /system/ntp/client/servers add address=2.rocky.pool.ntp.org
+[admin@npsw00n1] > /system/ntp/client/servers add address=2.centos.pool.ntp.org
 ```
 
 Now that everything is mostly setup, time to turn on VLAN filtering on the
